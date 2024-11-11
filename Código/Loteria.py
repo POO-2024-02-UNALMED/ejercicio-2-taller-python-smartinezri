@@ -23,3 +23,7 @@ class Loteria:
         else:
             print("Has perdido lo que apostaste")
             self.recieveMoney()
+
+    @classmethod
+    def changeProbability(cls,nprobability):
+        Loteria.probability = nprobability
